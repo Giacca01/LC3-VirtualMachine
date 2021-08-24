@@ -1,0 +1,14 @@
+General pourpose registers: A, B, C, D, E, F
+A stack is used to store arithmetic operations operands and results
+
+ISA:
+Opcode:	Mnemonic:	Description:
+0	-push value:	        pushes value on top of the stack
+1	-pop:		            pop value on top of the stack and returns it
+2	-print:		            pops and print value on top of stack
+3	-add:		            sums two values on top of the stack
+4	-sub:		            subtracts values on top of the stack
+5	-move reg1 reg2:	    moves value of register reg1 to register reg2
+    -store value reg1:      stores value in reg1
+6	-halt:		            stops the program
+
