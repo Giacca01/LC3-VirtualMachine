@@ -8,7 +8,8 @@ I decided to complete this project to brush up on what I have learnt about compu
 
 # Instructions
 In order to use this virtual machine you must:
-    1. Compile the source code with your favourite compiler
+    1a. Compile the source code with your favourite compiler
+    1b. Execute make shell command
     2. Download the object file of the LC-3 assembly program you want to execute
     3. Place the object file mentioned above in the same directory of the virtual machine executable for a simpler usage
-    4. Launch the virtual machine using the syntax: [Executable name] [LC-3 Source file 1] [LC-3 Source file 2] ...
+    4. Launch the virtual machine using the syntax: [Executable name, lc3 if 1b was followed] [LC-3 Source file 1] [LC-3 Source file 2] ...
